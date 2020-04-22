@@ -1,0 +1,473 @@
+body, html{
+    height: 100%;
+    max-width: 100%;
+    margin: 0px;
+}
+.flex-con{
+    display: flex;
+    flex-direction: row;
+}
+.flex-c{
+    text-align: center;
+}
+.a1{
+    background-image: url("../img/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: -20px;
+    padding-bottom: 80px;
+}
+h1, h4{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+h1{
+    font-size: 25px;
+}
+h6,p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 12px;
+}
+.col{
+    color: hsl(171, 66%, 44%);
+    color: hsl(233, 100%, 69%);
+    color: hsl(210, 10%, 33%);
+    color: hsl(201, 11%, 66%);
+}
+.v1{
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 9px;
+    color: white;
+    background-color: hsl(171, 66%, 44%);
+    border-color: hsl(171, 66%, 44%);
+}
+.v1:hover{
+    cursor: pointer;
+    opacity: 0.76;
+}
+.v2{
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 9px;
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+    border-color: hsl(233, 100%, 69%);
+}
+.v2:hover{
+    cursor: pointer;
+    opacity: 0.76;
+}
+.b2{
+    margin-left: 32%;
+    margin-right: 32%;
+}
+.b3{
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 130px;
+}
+.b4{
+    padding-bottom: 50px;
+}
+.b5{
+    justify-content: space-evenly;
+    text-align: center;
+}
+.ty{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.a2{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.a3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.a4{
+    background-color: hsl(0, 0%, 93%);
+    justify-content: space-evenly;
+}
+footer{
+    padding-top: 42px;
+}
+.d4{
+    max-width: 100%;
+    margin-left: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1202px) {
+    body, html{
+        height: 100%;
+        max-width: 100%;
+        margin: 0px;
+    }
+    .flex-con{
+        display: flex;
+        flex-direction: row;
+    }
+    .flex-c{
+        text-align: center;
+    }
+    .a1{
+        background-image: url("../img/bg-header-desktop.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        padding-top: -20px;
+        padding-bottom: 80px;
+    }
+    h1, h4{
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 18px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h6,p{
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 12px;
+    }
+    .col{
+        color: hsl(171, 66%, 44%);
+        color: hsl(233, 100%, 69%);
+        color: hsl(210, 10%, 33%);
+        color: hsl(201, 11%, 66%);
+    }
+    .v1{
+        text-decoration: none;
+        border-radius: 20px;
+        padding: 9px;
+        color: white;
+        background-color: hsl(171, 66%, 44%);
+        border-color: hsl(171, 66%, 44%);
+    }
+    .v1:hover{
+        cursor: pointer;
+        opacity: 0.76;
+    }
+    .v2{
+        text-decoration: none;
+        border-radius: 20px;
+        padding: 9px;
+        color: white;
+        background-color: hsl(233, 100%, 69%);
+        border-color: hsl(233, 100%, 69%);
+    }
+    .v2:hover{
+        cursor: pointer;
+        opacity: 0.76;
+    }
+    .b2{
+        margin-left: 32%;
+        margin-right: 32%;
+    }
+    .b3{
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 130px;
+        text-align: center;
+        justify-content: center;
+    }
+    .b4{
+        padding-bottom: 50px;
+    }
+    .b5{
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .ty{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .a2{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .a3{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .a4{
+        background-color: hsl(0, 0%, 93%);
+        justify-content: space-evenly;
+    }
+    footer{
+        padding-top: 42px;
+    }
+    .d4{
+        max-width: 100%;
+        margin-left: -50px;
+    }
+    .io{
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    body, html{
+        height: 100%;
+        max-width: 100%;
+        margin: 0px;
+    }
+    .flex-con{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .flex-c{
+        text-align: center;
+    }
+    .a1{
+        background-image: url("../img/bg-header-desktop.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        padding-top: -20px;
+        padding-bottom: 80px;
+    }
+    h1, h4{
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 18px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h6,p{
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 12px;
+    }
+    .col{
+        color: hsl(171, 66%, 44%);
+        color: hsl(233, 100%, 69%);
+        color: hsl(210, 10%, 33%);
+        color: hsl(201, 11%, 66%);
+    }
+    .v1{
+        text-decoration: none;
+        border-radius: 20px;
+        padding: 9px;
+        color: white;
+        background-color: hsl(171, 66%, 44%);
+        border-color: hsl(171, 66%, 44%);
+    }
+    .v1:hover{
+        cursor: pointer;
+        opacity: 0.76;
+    }
+    .v2{
+        margin-top: 5px;
+        text-decoration: none;
+        border-radius: 20px;
+        padding: 9px;
+        color: white;
+        background-color: hsl(233, 100%, 69%);
+        border-color: hsl(233, 100%, 69%);
+    }
+    .v2:hover{
+        cursor: pointer;
+        opacity: 0.76;
+    }
+    .butt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .b2{
+        margin-left: 22%;
+        margin-right: 22%;
+    }
+    .b3{
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .b4{
+        padding-bottom: 50px;
+    }
+    .b5{
+        flex-direction: column;
+        align-items: center;
+    }
+    .we{
+        padding-top: 50px;
+    }
+    .ty{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .a2{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .a3{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .a4{
+        background-color: hsl(0, 0%, 93%);
+        justify-content: space-evenly;
+    }
+    footer{
+        padding-top: 42px;
+    }
+    .d4{
+        max-width: 87%;
+        margin-left: 0px;
+        height: auto;
+        
+    }
+    .io{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    body, html{
+        height: 100%;
+        max-width: 100%;
+        margin: 0px;
+    }
+    .flex-con{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .flex-c{
+        text-align: center;
+    }
+    .a1{
+        background-image: url("../img/bg-header-desktop.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        padding-top: -20px;
+        padding-bottom: 80px;
+    }
+    h1, h4{
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 18px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h6,p{
+        font-family: 'Bai Jamjuree', sans-serif;
+        font-size: 12px;
+    }
+    .col{
+        color: hsl(171, 66%, 44%);
+        color: hsl(233, 100%, 69%);
+        color: hsl(210, 10%, 33%);
+        color: hsl(201, 11%, 66%);
+    }
+    .v1{
+        text-decoration: none;
+        border-radius: 20px;
+        padding: 9px;
+        color: white;
+        background-color: hsl(171, 66%, 44%);
+        border-color: hsl(171, 66%, 44%);
+    }
+    .v1:hover{
+        cursor: pointer;
+        opacity: 0.76;
+    }
+    .v2{
+        margin-top: 5px;
+        text-decoration: none;
+        border-radius: 20px;
+        padding: 9px;
+        color: white;
+        background-color: hsl(233, 100%, 69%);
+        border-color: hsl(233, 100%, 69%);
+    }
+    .v2:hover{
+        cursor: pointer;
+        opacity: 0.76;
+    }
+    .butt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .b2{
+        margin-left: 22%;
+        margin-right: 22%;
+    }
+    .b3{
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .b4{
+        padding-bottom: 50px;
+    }
+    .b5{
+        flex-direction: column;
+        align-items: center;
+    }
+    .we{
+        padding-top: 50px;
+    }
+    .ty{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .a2{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .a3{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .a4{
+        background-color: hsl(0, 0%, 93%);
+        
+        flex-direction: column;
+        text-align: center;
+    }
+    footer{
+        padding-top: 42px;
+    }
+    .d4{
+        max-width: 87%;
+        margin-left: 0px;
+        height: auto;
+        
+    }
+    .io{
+        text-align: center;
+    }
+}
